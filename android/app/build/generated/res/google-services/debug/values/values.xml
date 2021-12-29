@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">95470898399-o17a8qafbhsc9pamcmr7k2de9a3qgfvi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://georgelle-for-me.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">95470898399</string>
+    <string name="google_api_key" translatable="false">AIzaSyDTf5SEFqwlryZnFITbPPHz1Iu-PqkdiMM</string>
+    <string name="google_app_id" translatable="false">1:95470898399:android:24c317209f9b634c2aed6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDTf5SEFqwlryZnFITbPPHz1Iu-PqkdiMM</string>
+    <string name="google_storage_bucket" translatable="false">georgelle-for-me.appspot.com</string>
+    <string name="project_id" translatable="false">georgelle-for-me</string>
+</resources>

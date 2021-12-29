@@ -1,0 +1,681 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/11861542c2e71bf9ffbcf16474c194fc/flipper-network-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/5c35b42e40bdc8c113fba8e56b67edec/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_firestore] /home/britta/react/gfm/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase_app] /home/britta/react/gfm/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c12a0ad81307120d8d7bb876890df1ef/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-community_masked-view] /home/britta/react/gfm/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_toolbar-android] /home/britta/react/gfm/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /home/britta/react/gfm/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/britta/react/gfm/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/britta/react/gfm/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/britta/react/gfm/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /home/britta/react/gfm/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.62.2] /home/britta/.gradle/caches/transforms-2/files-2.1/d4456102d839cc54a1a7a1c80c85f289/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/0d20e36547a7732cb62aa5fd339e226a/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /home/britta/.gradle/caches/transforms-2/files-2.1/065026ced2ade7fc9b3ec087c1a44adb/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/63c27cae519f0e9bb52d236819e4ec58/firebase-core-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ef738bfd7e35037403778149f96e0eb1/firebase-analytics-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df60a529b81c671744f0e5b2dc2187a/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.facebook.fresco:flipper:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b94f3d64496d8ce964a624f5d48457d0/flipper-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/07105a4dda8bcd7bdd3b7fb04e4fbfd9/stetho-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c10ffda3658630138bb3af89acd8d7e8/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/e7d68fa3d3cdb0e6b7823a7a71d49156/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/13d17e617672a3b523f540f1abeecf12/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/691ae351b885329caaebb8d1d8158fe5/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e9ad543560c99c7747a4827ecec10a1/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed5b2fbe7738b2060385e1e6c3362155/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8b610f16ac009e070a43ca2c549872c3/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/fbe7bae8034469b1284f6eca7abb779e/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.28.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed0dff2b513305a8113ef6b3b9883c44/grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/81ee443ce4256a523d1235dbde6aaae3/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3f48b779d04959a855977b1fe7728ab5/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ecce34e30b257590083ad1eb938bf023/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f68f59023de05e0ec8371611a4e103bf/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df5b53247cac4b85cc10749b89c118e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/d5031a4230b9b22c9baefab6ba05d61f/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b14e484ef31a395b3cc58a6e12db42ee/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/33c471ad7820adc7b18c16b3be4918d2/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/935870f7fc22e277a851f37bdbab1d01/firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f7e23e10298e51429a5bd7341d19f0a8/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/16ed23d4e743597d8f4ab0ae31aef88d/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bd6334fbbac5df74bb52b404f4c1dce3/play-services-measurement-sdk-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c8537ab49d37a6e0b562da23e30aeafe/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ea01614f14a186a5375a9f8bd661bb22/play-services-measurement-base-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/7c7e79ed8d61638717899c650be08adf/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bf796f1e033be4d736521223f9f700cf/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9b071799c5f581f41ffb69ac4acbc8a4/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/britta/.gradle/caches/transforms-2/files-2.1/8985519953555d764e8085e4b1ce6d14/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/abddc3ac01d77238bab2153e83df2505/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/846b4f816c1b08bdab769c6b38599779/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc76f0ee557878f77cc2f25a76e08669/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bc8201aa6050cd22c13288c41e493903/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9037a2a42e68edc8d1ff20ec450db753/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc96e959759489d5b701118a16cdf8df/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2e2f0552dc4a0f2bb1e82c0c52ec2dfb/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5286a9ec13356a1a199de4c128cb4759/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/97f5195e1d18844ed1df8926d8b16059/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/549f924d16b17c2d6d82a578bb9fa68b/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2c22d2308e70b6388d773b5ca3363302/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/04faac87106ac95bca8f28c39005f235/jetified-firebase-components-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b2546dfb3d750c928646b0e463432257/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/098aa40e25959c25993ee4fce815b61d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c952a28560c25cabb41a6b4d56eba1c4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/382915c4c29df5837b927a5ca0dd80eb/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/407e1088f8d7054cb8d46f082da11b30/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c7fc8ff2ff7dc44657e6b63951e5dc49/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/08c4d55a293eabdc78f4e49d492207f6/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5ba01db9e55f6a175f6a9f7edf6e5f77/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8a30f5ec35551d9562780c6fd07b79c7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/94e4d5d48e364590680ea7535c5346b8/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/55de3ea1f8f53f12c7d941fce2e8183a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/38911626d27c1d94e2a0e0d1d1600491/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/c60565ef9fbaa584540271af16051047/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e2958df2a98d14dfdef4de1148c60a4/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/289193763b710bf9fa126f1a3d8e3568/protolite-well-known-types-17.1.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [com.facebook.react:react-native:0.62.2] /home/britta/.gradle/caches/transforms-2/files-2.1/d4456102d839cc54a1a7a1c80c85f289/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /home/britta/.gradle/caches/transforms-2/files-2.1/d4456102d839cc54a1a7a1c80c85f289/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-core:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/63c27cae519f0e9bb52d236819e4ec58/firebase-core-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/63c27cae519f0e9bb52d236819e4ec58/firebase-core-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ef738bfd7e35037403778149f96e0eb1/firebase-analytics-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ef738bfd7e35037403778149f96e0eb1/firebase-analytics-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df60a529b81c671744f0e5b2dc2187a/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df60a529b81c671744f0e5b2dc2187a/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/fbe7bae8034469b1284f6eca7abb779e/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/fbe7bae8034469b1284f6eca7abb779e/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/81ee443ce4256a523d1235dbde6aaae3/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/81ee443ce4256a523d1235dbde6aaae3/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/33c471ad7820adc7b18c16b3be4918d2/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/33c471ad7820adc7b18c16b3be4918d2/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/16ed23d4e743597d8f4ab0ae31aef88d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/16ed23d4e743597d8f4ab0ae31aef88d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bd6334fbbac5df74bb52b404f4c1dce3/play-services-measurement-sdk-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bd6334fbbac5df74bb52b404f4c1dce3/play-services-measurement-sdk-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c8537ab49d37a6e0b562da23e30aeafe/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c8537ab49d37a6e0b562da23e30aeafe/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ea01614f14a186a5375a9f8bd661bb22/play-services-measurement-base-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ea01614f14a186a5375a9f8bd661bb22/play-services-measurement-base-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/7c7e79ed8d61638717899c650be08adf/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/7c7e79ed8d61638717899c650be08adf/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bf796f1e033be4d736521223f9f700cf/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bf796f1e033be4d736521223f9f700cf/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/098aa40e25959c25993ee4fce815b61d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/098aa40e25959c25993ee4fce815b61d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/c60565ef9fbaa584540271af16051047/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/c60565ef9fbaa584540271af16051047/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.busticketing.MainActivity
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:13:7-23:18
+	android:label
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:16:9-86
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/11861542c2e71bf9ffbcf16474c194fc/flipper-network-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/11861542c2e71bf9ffbcf16474c194fc/flipper-network-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/5c35b42e40bdc8c113fba8e56b67edec/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/5c35b42e40bdc8c113fba8e56b67edec/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /home/britta/react/gfm/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] /home/britta/react/gfm/node_modules/@react-native-firebase/firestore/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /home/britta/react/gfm/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /home/britta/react/gfm/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c12a0ad81307120d8d7bb876890df1ef/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c12a0ad81307120d8d7bb876890df1ef/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-community_masked-view] /home/britta/react/gfm/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/britta/react/gfm/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] /home/britta/react/gfm/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] /home/britta/react/gfm/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/britta/react/gfm/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/britta/react/gfm/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/britta/react/gfm/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/britta/react/gfm/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/britta/react/gfm/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/britta/react/gfm/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/britta/react/gfm/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/britta/react/gfm/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/britta/react/gfm/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/britta/react/gfm/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/britta/.gradle/caches/transforms-2/files-2.1/d4456102d839cc54a1a7a1c80c85f289/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/britta/.gradle/caches/transforms-2/files-2.1/d4456102d839cc54a1a7a1c80c85f289/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/0d20e36547a7732cb62aa5fd339e226a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/0d20e36547a7732cb62aa5fd339e226a/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/britta/.gradle/caches/transforms-2/files-2.1/065026ced2ade7fc9b3ec087c1a44adb/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/britta/.gradle/caches/transforms-2/files-2.1/065026ced2ade7fc9b3ec087c1a44adb/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/63c27cae519f0e9bb52d236819e4ec58/firebase-core-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/63c27cae519f0e9bb52d236819e4ec58/firebase-core-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ef738bfd7e35037403778149f96e0eb1/firebase-analytics-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ef738bfd7e35037403778149f96e0eb1/firebase-analytics-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df60a529b81c671744f0e5b2dc2187a/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df60a529b81c671744f0e5b2dc2187a/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:flipper:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b94f3d64496d8ce964a624f5d48457d0/flipper-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b94f3d64496d8ce964a624f5d48457d0/flipper-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/07105a4dda8bcd7bdd3b7fb04e4fbfd9/stetho-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/07105a4dda8bcd7bdd3b7fb04e4fbfd9/stetho-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c10ffda3658630138bb3af89acd8d7e8/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c10ffda3658630138bb3af89acd8d7e8/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/e7d68fa3d3cdb0e6b7823a7a71d49156/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/e7d68fa3d3cdb0e6b7823a7a71d49156/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/13d17e617672a3b523f540f1abeecf12/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/13d17e617672a3b523f540f1abeecf12/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/691ae351b885329caaebb8d1d8158fe5/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/691ae351b885329caaebb8d1d8158fe5/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e9ad543560c99c7747a4827ecec10a1/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e9ad543560c99c7747a4827ecec10a1/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed5b2fbe7738b2060385e1e6c3362155/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed5b2fbe7738b2060385e1e6c3362155/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8b610f16ac009e070a43ca2c549872c3/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8b610f16ac009e070a43ca2c549872c3/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/fbe7bae8034469b1284f6eca7abb779e/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/fbe7bae8034469b1284f6eca7abb779e/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed0dff2b513305a8113ef6b3b9883c44/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed0dff2b513305a8113ef6b3b9883c44/grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/81ee443ce4256a523d1235dbde6aaae3/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/81ee443ce4256a523d1235dbde6aaae3/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3f48b779d04959a855977b1fe7728ab5/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3f48b779d04959a855977b1fe7728ab5/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ecce34e30b257590083ad1eb938bf023/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ecce34e30b257590083ad1eb938bf023/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f68f59023de05e0ec8371611a4e103bf/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f68f59023de05e0ec8371611a4e103bf/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df5b53247cac4b85cc10749b89c118e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/1df5b53247cac4b85cc10749b89c118e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/d5031a4230b9b22c9baefab6ba05d61f/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/d5031a4230b9b22c9baefab6ba05d61f/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b14e484ef31a395b3cc58a6e12db42ee/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b14e484ef31a395b3cc58a6e12db42ee/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/33c471ad7820adc7b18c16b3be4918d2/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/33c471ad7820adc7b18c16b3be4918d2/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/935870f7fc22e277a851f37bdbab1d01/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/935870f7fc22e277a851f37bdbab1d01/firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f7e23e10298e51429a5bd7341d19f0a8/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f7e23e10298e51429a5bd7341d19f0a8/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/16ed23d4e743597d8f4ab0ae31aef88d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/16ed23d4e743597d8f4ab0ae31aef88d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bd6334fbbac5df74bb52b404f4c1dce3/play-services-measurement-sdk-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bd6334fbbac5df74bb52b404f4c1dce3/play-services-measurement-sdk-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c8537ab49d37a6e0b562da23e30aeafe/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c8537ab49d37a6e0b562da23e30aeafe/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ea01614f14a186a5375a9f8bd661bb22/play-services-measurement-base-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ea01614f14a186a5375a9f8bd661bb22/play-services-measurement-base-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/7c7e79ed8d61638717899c650be08adf/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/7c7e79ed8d61638717899c650be08adf/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bf796f1e033be4d736521223f9f700cf/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bf796f1e033be4d736521223f9f700cf/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9b071799c5f581f41ffb69ac4acbc8a4/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9b071799c5f581f41ffb69ac4acbc8a4/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/britta/.gradle/caches/transforms-2/files-2.1/8985519953555d764e8085e4b1ce6d14/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/britta/.gradle/caches/transforms-2/files-2.1/8985519953555d764e8085e4b1ce6d14/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/abddc3ac01d77238bab2153e83df2505/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/abddc3ac01d77238bab2153e83df2505/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/846b4f816c1b08bdab769c6b38599779/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/846b4f816c1b08bdab769c6b38599779/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc76f0ee557878f77cc2f25a76e08669/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc76f0ee557878f77cc2f25a76e08669/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bc8201aa6050cd22c13288c41e493903/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/bc8201aa6050cd22c13288c41e493903/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9037a2a42e68edc8d1ff20ec450db753/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/9037a2a42e68edc8d1ff20ec450db753/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc96e959759489d5b701118a16cdf8df/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/cc96e959759489d5b701118a16cdf8df/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2e2f0552dc4a0f2bb1e82c0c52ec2dfb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2e2f0552dc4a0f2bb1e82c0c52ec2dfb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5286a9ec13356a1a199de4c128cb4759/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5286a9ec13356a1a199de4c128cb4759/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/97f5195e1d18844ed1df8926d8b16059/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/97f5195e1d18844ed1df8926d8b16059/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/549f924d16b17c2d6d82a578bb9fa68b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/549f924d16b17c2d6d82a578bb9fa68b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/35827241f1284ddd27fec4045d472c2b/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2c22d2308e70b6388d773b5ca3363302/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/2c22d2308e70b6388d773b5ca3363302/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/04faac87106ac95bca8f28c39005f235/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/04faac87106ac95bca8f28c39005f235/jetified-firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b2546dfb3d750c928646b0e463432257/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b2546dfb3d750c928646b0e463432257/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/098aa40e25959c25993ee4fce815b61d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/098aa40e25959c25993ee4fce815b61d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c952a28560c25cabb41a6b4d56eba1c4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c952a28560c25cabb41a6b4d56eba1c4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/382915c4c29df5837b927a5ca0dd80eb/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/382915c4c29df5837b927a5ca0dd80eb/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/407e1088f8d7054cb8d46f082da11b30/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/407e1088f8d7054cb8d46f082da11b30/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c7fc8ff2ff7dc44657e6b63951e5dc49/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/c7fc8ff2ff7dc44657e6b63951e5dc49/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/08c4d55a293eabdc78f4e49d492207f6/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/08c4d55a293eabdc78f4e49d492207f6/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5ba01db9e55f6a175f6a9f7edf6e5f77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/5ba01db9e55f6a175f6a9f7edf6e5f77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8a30f5ec35551d9562780c6fd07b79c7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/britta/.gradle/caches/transforms-2/files-2.1/8a30f5ec35551d9562780c6fd07b79c7/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/94e4d5d48e364590680ea7535c5346b8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/94e4d5d48e364590680ea7535c5346b8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/55de3ea1f8f53f12c7d941fce2e8183a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/55de3ea1f8f53f12c7d941fce2e8183a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/38911626d27c1d94e2a0e0d1d1600491/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/38911626d27c1d94e2a0e0d1d1600491/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/c60565ef9fbaa584540271af16051047/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /home/britta/.gradle/caches/transforms-2/files-2.1/c60565ef9fbaa584540271af16051047/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e2958df2a98d14dfdef4de1148c60a4/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/6e2958df2a98d14dfdef4de1148c60a4/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/289193763b710bf9fa126f1a3d8e3568/protolite-well-known-types-17.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/289193763b710bf9fa126f1a3d8e3568/protolite-well-known-types-17.1.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/britta/react/gfm/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/britta/react/gfm/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.33.1] /home/britta/.gradle/caches/transforms-2/files-2.1/6ce45730f04299bea84217ec9cd70877/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:react-native-firebase_database] /home/britta/react/gfm/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed0dff2b513305a8113ef6b3b9883c44/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] /home/britta/.gradle/caches/transforms-2/files-2.1/ed0dff2b513305a8113ef6b3b9883c44/grpc-android-1.28.0/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/3e11e0b017ff36241cb0840cf86b5e0c/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase_auth] /home/britta/react/gfm/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:75:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] /home/britta/.gradle/caches/transforms-2/files-2.1/4d129d602a046b03ee66452139048b14/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/addd6f3a0ec6a5fff00963ba7c409a69/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.5.1] /home/britta/.gradle/caches/transforms-2/files-2.1/18ab2cb0738a33bbbd6d03f404aae928/firebase-database-19.5.1/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/439e81811e90eb48d1cddeb6cd12b0fe/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/britta/.gradle/caches/transforms-2/files-2.1/7e6873b623b748b9493308488f3aec05/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/britta/.gradle/caches/transforms-2/files-2.1/f5a8adbfec7fc40d157f9ebcfdea0bae/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/fc09e5066b2a802f87ade2b44374c339/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/britta/.gradle/caches/transforms-2/files-2.1/a19c3a16d8832d28f9f04201a2c2b3de/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/05ca7ba63365657e2ebee3bad23d04c3/play-services-measurement-impl-18.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /home/britta/.gradle/caches/transforms-2/files-2.1/b8d230705bd55f900b87cd22d826ad02/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /home/britta/.gradle/caches/transforms-2/files-2.1/aa277b6a797115e34116f65aac09f72b/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58

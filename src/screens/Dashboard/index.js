@@ -1,0 +1,255 @@
+import React, {Component} from 'react';
+import { View, Text, ScrollView, Image, TouchableOpacity } from "react-native";
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
+import AntDesign from "react-native-vector-icons/AntDesign";
+import { CircleCard, BoxCard } from '../../common'
+import Header from "./header"
+import Footer from './footer'
+import styles from "./DashboardStyle.js";
+import database from '@react-native-firebase/database';
+import {androidConfig} from '../../../components/DatabaseComponent';
+import { firebase } from '@firebase/app';
+
+const HotDeal = [
+    {
+        image: require('../../../images/2.png'),
+        like: true,
+        tag: "-10.0%",
+        name: 'Akara',
+        price: '$25'
+    },
+    {
+        image: require('../../../images/3.png'),
+        like: false,
+        tag: "-7.0%",
+        name: 'Hamburger',
+        price: '$100'
+    },
+    {
+        image: require('../../../images/1.png'),
+        like: true,
+        tag: "-5.0%",
+        name: 'Strawberry',
+        price: '$50'
+    },
+    {
+        image: require('../../../images/5.png'),
+        like: false,
+        tag: "-8.0%",
+        name: 'Pasta',
+        price: '$50'
+    }
+]
+
+const DrinksParol = [
+    {
+        image: require('../../../images/6.png'),
+        like: true,
+        tag: "-5.0%",
+        name: 'Cocacola',
+        price: '$100'
+    },
+    {
+        image: require('../../../images/7.png'),
+        like: false,
+        tag: "-10.0%",
+        name: 'Lemonade',
+        price: '$1000'
+    },
+    {
+        image: require('../../../images/8.png'),
+        like: true,
+        tag: "-5.0%",
+        name: 'Voldka',
+        price: '$450'
+    },
+    {
+        image: require('../../../images/9.png'),
+        like: false,
+        tag: "-7.0%",
+        name: 'Tuquila',
+        price: '$500'
+    }
+]
+if (!firebase.apps.lenght) {
+    firebase.initializeApp(androidConfig)
+}
+const ref = database().ref('Products');
+
+export default class Dashboard extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            AllCategories: [],
+            HotDeal: [],
+        }
+    }
+
+    componentDidMount() {
+        database()
+            .ref('Products')
+            .once('value')
+            .then(snapshot =>{
+            var li = []
+             snapshot.forEach((child)=>{
+                li.push({
+                    key: child.key,
+                    name:child.val().name,
+                    icon:child.val().icon
+                })
+            })
+            this.setState({AllCategories:li})
+            })
+        database()
+            .ref('nouveauté')
+            .once('value')
+            .then(snapshot =>{
+                var tab = []
+                snapshot.forEach((child)=>{
+                    tab.push({
+                        key: child.key,
+                        image: child.val().image,
+                        prix: child.val().prix,
+                        name:child.val().name
+                    })
+                })
+                this.setState({HotDeal:tab})
+            })
+    }
+
+
+    
+    render() {
+    return (
+        <View style={{flex: 1}}>
+            <Header />
+            <ScrollView >
+                {/* All Categories */}
+                <View style={{ margin: 20 }}>
+                    <View>
+                        <View style={styles.title}>
+                            <Text style={styles.leftTitle}>Catégories</Text>
+                        </View>
+                    </View>
+                    <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                        {
+                            this.state.AllCategories &&
+                            this.state.AllCategories.map((item, index) => {
+                                return (
+                                        <View style={styles.circleCardView} key={index}>
+                                        <TouchableOpacity onPress={() => this.props.navigation.navigate(item.name)}
+                                    style={styles.circleCardView}>
+                                        <CircleCard>
+                                        <FontAwesome5 style={{ color: "#2e242c" }} name={item.icon} size={30} />
+                                        </CircleCard>
+                                        </TouchableOpacity>
+                                        <Text style={{ textAlign: 'center', marginTop: 10, color: "#878787", fontWeight: 'bold' }}>{item.name} ></Text>
+                                    </View>
+                                )
+                            })
+                        }
+                    </ScrollView>
+                </View>
+
+                {/* Hot Deals */}
+                <View style={{ margin: 20, marginTop: 20 }}>
+                    <View>
+                        <View style={styles.title}>
+                            <Text style={styles.leftTitle}>Nouveauté</Text>
+                        </View>
+
+                    </View>
+                    <ScrollView contentContainerStyle={{ padding: 20 }} horizontal={true} showsHorizontalScrollIndicator={false}>
+                        {
+                            this.state.HotDeal && this.state.HotDeal.map((item, index) => {
+                                return (
+                                    <View key={index} style={{ marginRight: 20 }}>
+                                        <BoxCard >
+                                            <View style={styles.count} >
+                                                <Text style={{ color: "#fff", fontSize: 12 }}>{item.tag}</Text>
+                                            </View>
+
+                                            <TouchableOpacity onPress={() => navigation.navigate('Product', {
+                                                image: item.image,
+                                                name: item.name,
+                                                tag: item.tag,
+                                                prix: item.prix,
+                                                index: index
+                                            })} style={styles.imageContainer}>
+                                                <Image
+                                                    style={styles.logo}
+                                    source={{ uri: item.image }}
+                                                />
+                                            </TouchableOpacity>
+                                            <View style={{ marginTop: 5, flexDirection: 'row', justifyContent: "flex-end" }}>
+                                                <AntDesign name={item.like ? 'heart' : 'hearto'} size={25} color={item.like ? 'red' : '#878787'} />
+                                            </View>
+                                        </BoxCard>
+
+                                        <View style={{ marginTop: 20 }}>
+                                            <Text style={{ fontSize: 15 }}>{item.name}</Text>
+                                            <Text style={{ fontWeight: 'bold', fontSize: 17 }}>{item.prix}</Text>
+                                        </View>
+                                    </View>
+                                )
+                            })
+                        }
+
+                    </ScrollView>
+                </View>
+
+                {/* Drinks Parol */}
+                <View style={{ margin: 20, marginTop: 20 }}>
+                    <View>
+                        <View style={styles.title}>
+                            <Text style={styles.leftTitle}>Coup de coeur</Text>
+                        </View>
+
+                    </View>
+                    <ScrollView contentContainerStyle={{ padding: 20 }} horizontal={true} showsHorizontalScrollIndicator={false}>
+                        {
+                            DrinksParol && DrinksParol.map((item, index) => {
+                                return (
+                                    <View key={index} style={{ marginRight: 20 }}>
+                                        <BoxCard >
+                                            <View style={styles.count} >
+                                                <Text style={{ color: "#fff", fontSize: 12 }}>{item.tag}</Text>
+                                            </View>
+
+                                            <TouchableOpacity onPress={() => navigation.navigate('Product', {
+                                                image: item.image,
+                                                name: item.name,
+                                                tag: item.tag,
+                                                price: item.price,
+                                                index: index
+                                            })} style={styles.imageContainer}>
+                                                <Image
+                                                    style={styles.logo}
+                                                    source={item.image}
+                                                />
+                                            </TouchableOpacity>
+                                            <View style={{ marginTop: 5, flexDirection: 'row', justifyContent: "flex-end" }}>
+                                                <AntDesign name={item.like ? 'heart' : 'hearto'} size={25} color={item.like ? 'red' : '#878787'} />
+                                            </View>
+                                        </BoxCard>
+
+                                        <View style={{ marginTop: 20 }}>
+                                            <Text style={{ fontSize: 15 }}>{item.name}</Text>
+                                            <Text style={{ fontWeight: 'bold', fontSize: 17 }}>{item.price}</Text>
+                                        </View>
+                                    </View>
+                                )
+                            })
+                        }
+
+                    </ScrollView>
+                </View>
+                
+            </ScrollView>
+        
+            <Footer />
+        </View>
+    );
+    }
+}
